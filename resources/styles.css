@@ -57,7 +57,23 @@ li {
     padding: 0px 30px;
 }
 
-li a {
+a {
+    color: #707070;
+    transition: color 0.2s linear;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #707070;
+}
+
+a:active {
+    text-decoration: none;
+    color: #707070;
+}
+
+a:visited {
+    text-decoration: none;
     color: #707070;
 }
 
