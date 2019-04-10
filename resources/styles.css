@@ -12,6 +12,8 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: light;
     font-size: 18px;
+    background-color: #fff;
+    color: #707070;
  
 }
 
@@ -28,20 +30,20 @@ h2 {
 
 }
 
-nav {
+nav.navbar {
     background-color: #ffdd6e;
     height: 75px;
-    vertical-align: middle;
 }
 
 div.container-fluid {
    width: 80%;
+   vertical-align: middle;
+   height: 64px;
 }
 
 div.navbar-header {
-    position: relative;
     color: white;
-    padding-top: 10px;
+    padding-top: 5px;
  
 }
 
@@ -59,7 +61,30 @@ li a {
     color: #707070;
 }
 
+.wrapper {
+    padding-top: 75px;
+padding-bottom: 64px;
+height: 1000px;
+}
+
 div.container {
     width: 50%;
     text-align: center;
+    background-color: #fff;
+}
+
+div.jumbotron {
+    background-color: #fff;
+}
+
+footer {
+  background-color: #ffdd6e;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 64px;  
+}
+
+footer p {
+ padding-top: 20px;
 }
