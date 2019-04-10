@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Raleway Light", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Pacifico, serif;
+}
+
+.container {
+    width: 50%;
+}
